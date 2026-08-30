@@ -12,7 +12,7 @@ using System.Text.Json.Serialization;
 using System.Web;
 using WeatherExample;
 
-const string ApiKey = "fa8b3df74d4042b9aa7135114252304";
+const string ApiKey = "your_api_key";
 const string BaseUrl = "https://api.weatherapi.com/v1";
 
 var client = new WeatherClient(ApiKey);
